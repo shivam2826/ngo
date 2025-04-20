@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "MAKE A DIFFERENCE",
+      "tagline": "JOIN US IN CREATING CHANGE",
+      "image": "/volunteer.avif",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Join Our Mission",
+          "link": "#join-form",
+          "type": "btn-dark btn-circle"
+        }   
+      ]
+    },
+    {
+      "id": 2,
+      "title": "EDUCATE & EMPOWER",
+      "tagline": "BUILDING A BETTER FUTURE",
+      "image": "/volunteer.avif",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Learn More",
+          "link": "/about",
+          "type": "btn-dark btn-circle"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "TOGETHER WE CAN",
+      "tagline": "CHANGING LIVES EVERY DAY",
+      "image": "/volunteer.avif",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Donate Now",
+          "link": "/donate",
+          "type": "btn-dark btn-circle"
+        }
+      ]
+    }
+  ]
+  
