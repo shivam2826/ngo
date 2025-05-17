@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[40vh] flex items-center justify-center">
+      <section className="relative h-[40vh] flex items-center justify-center bg-cyan-600">
         <Image
           src="/images/about-hero.jpg"
           alt="About Us"
@@ -32,21 +32,40 @@ export default function About() {
             className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
           >
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
+              <h2 className="text-3xl font-bold mb-6">Who We are</h2>
               <p className="text-gray-600 mb-4">
-                We are dedicated to creating positive change in our communities
-                through sustainable development initiatives, education programs,
-                and healthcare services.
+                Ikrazah Foundation is a compassionate non-profit organization
+                dedicated to improving the lives of individuals battling kidney
+                diseases. Our mission is to provide holistic support to kidney
+                patients and their families, ensuring they receive the care,
+                resources, and awareness necessary to navigate their journey
+                toward better health. Through a range of initiatives, including
+                financial assistance for treatments, access to dialysis
+                services, health camps and education on kidney health, we aim to
+                alleviate the burden faced by those suffering from
+                kidney-related illnesses.
               </p>
               <p className="text-gray-600">
-                Our mission is to empower individuals and communities to build a
-                better future for themselves and future generations.
+                Ikrazah Foundation is a compassionate non-profit organization
+                dedicated to improving the lives of individuals battling kidney
+                diseases. Our mission is to provide holistic support to kidney
+                patients and their families, ensuring they receive the care,
+                resources, and awareness necessary to navigate their journey
+                toward better health. Through a range of initiatives, including
+                financial assistance for treatments, access to dialysis
+                services, health camps and education on kidney health, we aim to
+                alleviate the burden faced by those suffering from
+                kidney-related illnesses.
+                <br />
+                <strong>
+                  Together, we can bring hope and healing to those in need.
+                </strong>
               </p>
             </div>
             <div className="relative h-80">
               <Image
                 src="/images/mission.jpg"
-                alt="Our Mission"
+                alt="About us"
                 fill
                 className="object-cover rounded-lg"
               />

@@ -6,6 +6,7 @@ import teamData from "@/const/teamData.json";
 import JoinForm from "@/components/JoinForm";
 import TeamSlider from "@/components/TeamSlider";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       {/* About Us Section */}
       <section className="py-20 px-4 bg-gray-50">
         <DemoSlider data={sliderData} />
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto mt-15">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -24,17 +25,24 @@ export default function Home() {
               transition={{ duration: 1 }}
               viewport={{ once: false }}
             >
-              <h2 className="text-4xl font-bold mb-6">About Our NGO</h2>
+              <h2 className="text-4xl font-bold mb-6">About Our Foundation</h2>
               <p className="text-lg text-gray-600 mb-6">
-                We are a dedicated team working towards creating positive change
-                in our community. Our mission is to empower individuals and
-                transform lives through education, healthcare, and sustainable
-                development initiatives.
+                Ikrazah Foundation is a compassionate non-profit organization
+                dedicated to improving the lives of individuals battling kidney
+                diseases. Our mission is to provide holistic support to kidney
+                patients and their families, ensuring they receive the care,
+                resources, and awareness necessary to navigate their journey
+                toward better health.
               </p>
               <p className="text-lg text-gray-600">
-                With over a decade of experience, we have impacted thousands of
-                lives and continue to expand our reach to make a meaningful
-                difference in society.
+                Through a range of initiatives, including financial assistance
+                for treatments, access to dialysis services, health camps and
+                education on kidney health, we aim to alleviate the burden faced
+                by those suffering from kidney-related illnesses.
+                <br />
+                <Link href={"/about"} className="underline color-[blue]">
+                  Read More -{">"}
+                </Link>
               </p>
             </motion.div>
             <motion.div
