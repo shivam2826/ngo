@@ -68,10 +68,19 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 NGO Street</li>
-              <li>City, State 12345</li>
-              <li>Phone: (123) 456-7890</li>
-              <li>Email: info@ngoname.org</li>
+              <li>IKRAZAH FOUNDATION</li>
+              <li>FLT NO.66 ABDUL FAZAL, CGHS VASUNDHARA ENCLAVE</li>
+              <li>East Delhi, Delhi - 110096, India</li>
+              <li>Phone: +91 89204 51482</li>
+              <li>
+                Email:
+                <a
+                  href="mailto:ikrazahfoundation@gmail.com?subject=Inquiry&body=Hello, I would like to know more about..."
+                  className="text-blue-400 hover:underline"
+                >
+                  &nbsp;ikrazahfoundation@gmail.com
+                </a>
+              </li>
             </ul>
           </div>
 
