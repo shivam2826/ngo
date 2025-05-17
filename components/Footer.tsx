@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} NGO Name. All rights reserved.</p>
+          <p>&copy; {currentYear} Ikrazah Foundation. All rights reserved.</p>
         </div>
       </div>
     </footer>

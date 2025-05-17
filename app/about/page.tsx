@@ -131,9 +131,9 @@ export default function About() {
                 local community.
               </p>
               <p className="text-gray-600">
-                Over the years, we've grown into a respected NGO with multiple
+                {` Over the years, we've grown into a respected NGO with multiple
                 programs and initiatives that have positively impacted thousands
-                of lives.
+                of lives.`}
               </p>
             </div>
           </motion.div>

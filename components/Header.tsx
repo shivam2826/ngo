@@ -25,7 +25,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="text-2xl font-bold text-primary">
-              NGO Name
+              Ikrazah Foundation
             </Link>
           </motion.div>
 

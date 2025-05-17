@@ -1,6 +1,18 @@
 "use client";
 import { motion } from "framer-motion";
 
+// function testDoPost() {
+//   var mockEvent = {
+//     postData: {
+//       contents: JSON.stringify({
+//         name: "John Tester",
+//         email: "john.tester@example.com",
+//       }),
+//     },
+//   };
+//   doPost(mockEvent);
+// }
+
 export default function Donate() {
   return (
     <div className="min-h-screen">

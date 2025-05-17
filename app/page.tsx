@@ -1,9 +1,10 @@
 "use client";
 import DemoSlider from "@/components/DemoSlider";
 import Image from "next/image";
-import Link from "next/link";
 import sliderData from "@/const/sliderData.json";
+import teamData from "@/const/teamData.json";
 import JoinForm from "@/components/JoinForm";
+import TeamSlider from "@/components/TeamSlider";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -53,6 +54,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Team Section */}
+      <TeamSlider data={teamData.teamMembers} />
 
       {/* Join Our Community Section */}
       <section className="py-20 px-4 bg-white">

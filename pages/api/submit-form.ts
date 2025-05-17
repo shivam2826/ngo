@@ -1,4 +1,4 @@
-import { GoogleSpreadsheet } from "google-spreadsheet";
+// import { GoogleSpreadsheet } from "google-spreadsheet";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
@@ -10,32 +10,32 @@ export default async function handler(
   }
 
   try {
-    const { firstName, lastName, email, mobileNumber, state } = req.body;
+    // const { firstName, lastName, email, mobileNumber, state } = req.body;
 
     // Initialize the Google Spreadsheet
-    const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID);
+    // const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID);
 
     // Authenticate with Google Sheets
-    await doc.useServiceAccountAuth({
-      client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL!,
-      private_key: process.env.GOOGLE_PRIVATE_KEY!.replace(/\\n/g, "\n"),
-    });
+    // await doc.useServiceAccountAuth({
+    //   client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL!,
+    //   private_key: process.env.GOOGLE_PRIVATE_KEY!.replace(/\\n/g, "\n"),
+    // });
 
     // Load the document
-    await doc.loadInfo();
+    // await doc.loadInfo();
 
     // Get the first sheet
-    const sheet = doc.sheetsByIndex[0];
+    // const sheet = doc.sheetsByIndex[0];
 
     // Add the new row
-    await sheet.addRow({
-      "First Name": firstName,
-      "Last Name": lastName,
-      Email: email,
-      "Mobile Number": mobileNumber,
-      State: state,
-      Timestamp: new Date().toISOString(),
-    });
+    // await sheet.addRow({
+    //   "First Name": firstName,
+    //   "Last Name": lastName,
+    //   Email: email,
+    //   "Mobile Number": mobileNumber,
+    //   State: state,
+    //   Timestamp: new Date().toISOString(),
+    // });
 
     return res.status(200).json({ message: "Form submitted successfully" });
   } catch (error) {

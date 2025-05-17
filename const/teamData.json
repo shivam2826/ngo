@@ -1,0 +1,48 @@
+{
+  "teamMembers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "Founder & CEO",
+      "image": "/images/team/member1.jpg",
+      "description": "Passionate about social change with 15+ years of experience in non-profit management.",
+      "social": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Program Director",
+      "image": "/images/team/member2.jpg",
+      "description": "Expert in community development and program implementation with a focus on education.",
+      "social": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "role": "Operations Manager",
+      "image": "/team.jpg",
+      "description": "Skilled in logistics and resource management, ensuring smooth operations across all projects.",
+      "social": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sarah Williams",
+      "role": "Community Outreach",
+      "image": "/images/team/member4.jpg",
+      "description": "Skilled in logistics and resource management, ensuring smooth operations across all projects.",
+      "social": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      }
+    }
+  ]
+} 
