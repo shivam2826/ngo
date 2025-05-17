@@ -33,15 +33,15 @@ export default function Vision() {
           >
             <h2 className="text-3xl font-bold mb-6">Our Vision & Mission</h2>
             <p className="text-gray-600 mb-4">
-              At Ikrazah Foundation, our vision is to create a healthier and
+              {`  At Ikrazah Foundation, our vision is to create a healthier and
               more compassionate society where individuals suffering from kidney
               diseases receive the care, support and resources they need to lead
               fulfilling lives. We aim to bridge the gap between patients and
               critical resources, fostering hope and improving the quality of
-              life for countless families impacted by kidney-related ailments.
+              life for countless families impacted by kidney-related ailments.`}
             </p>
             <p className="text-gray-600 mb-4">
-              Kidney diseases, such as chronic kidney disease (CKD) and acute
+              {` Kidney diseases, such as chronic kidney disease (CKD) and acute
               kidney injury, affect millions of people globally and are often
               termed as "silent killers" due to their gradual progression and
               lack of early symptoms. Many patients remain undiagnosed until the
@@ -49,10 +49,10 @@ export default function Vision() {
               complications like kidney failure, which requires dialysis or
               transplantation. For those from economically weaker sections, the
               high costs of treatment, combined with a lack of awareness and
-              limited access to healthcare, make this battle even harder.
+              limited access to healthcare, make this battle even harder.`}
             </p>
             <p className="text-gray-600">
-              Recognizing these challenges, Ikrazah Foundation is dedicated to
+              {`Recognizing these challenges, Ikrazah Foundation is dedicated to
               tackling the issues head-on. We aim to spread awareness about the
               importance of early detection and preventive care through
               educational campaigns, medical camps and partnerships with
@@ -61,7 +61,7 @@ export default function Vision() {
               and their families. Offering selfless service with profound
               compassion. Providing urgent help with personal accountability.
               Ensuring unquestionable transparency in all our efforts.
-              Continually innovating to better serve kidney patients in need
+              Continually innovating to better serve kidney patients in need`}
             </p>
           </motion.div>
 
